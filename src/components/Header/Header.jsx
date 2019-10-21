@@ -30,19 +30,6 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Prestations</Link>
-        </li>
-        <li>
-          <Link to="/gallery">Gallery / Fracebook</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact / RDV</Link>
-        </li>
-      </ul>
-    </nav>
   </header>
 )
 
