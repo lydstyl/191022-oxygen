@@ -12,6 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Menu from "./Menu/Menu"
 
 import Header from "./Header/Header"
+import BigPicture from "./BigPicture/BigPicture"
+
 import "./layout.scss"
 
 const Layout = ({ children }) => {
@@ -42,6 +44,8 @@ const Layout = ({ children }) => {
           <footer>FOOTER</footer>
         </div>
       </main>
+
+      {/* <BigPicture /> */}
     </div>
   )
 }
